@@ -1,0 +1,105 @@
+body {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#main {
+  background-color: whitesmoke;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#output {
+  display: flex;
+}
+
+#nums {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#signs {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#btns {
+  display: flex;
+}
+
+#main #btns #nums .num {
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: none;
+}
+
+#main #btns #nums {
+  margin-right: 4px;
+}
+
+#main #btns #signs .sign:hover,
+#main #btns #nums .num:hover {
+  border: black;
+}
+
+#main #btns #signs .sign {
+  font-size: 30px;
+  border: none;
+  margin-bottom: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#main #btns #signs #c {
+  font-weight: bold;
+  background-color: rgb(255, 191, 0);
+}
+
+#main #btns #signs {
+  margin-right: 8px;
+}
+
+#main #btns #signs #p {
+  background-color: rgb(241, 203, 89);
+}
+
+#main #btns #signs #min {
+  background-color: rgb(241, 220, 156);
+}
+
+#main #btns #signs #mul {
+  background-color: rgb(238, 227, 192);
+}
+
+#main #btns #signs #div {
+  background-color: rgb(240, 235, 219);
+}
+
+#main #output {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  font-size: 60px;
+}
